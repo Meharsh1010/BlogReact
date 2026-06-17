@@ -12,6 +12,19 @@ const App = () => {
       <li>AI in Transportation</li>
       <li>AI in Entertainment</li>
     </ol>
+    <form>
+      <label htmlFor="name">Name:</label>
+      <input type="text" id="name" name="name" />
+      <br />
+      <label htmlFor="email">Email:</label>
+      <input type="email" id="email" name="email" />
+      <br />
+      <label htmlFor="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      <br />
+      <button type="submit">Submit</button>
+
+    </form>
     </>
   )
 }
